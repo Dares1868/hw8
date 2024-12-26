@@ -27,6 +27,13 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
 
 *,
 *::before,
@@ -118,7 +125,7 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-
+  font: inherit;
   vertical-align: baseline;
 }
 
